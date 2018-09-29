@@ -1,0 +1,24 @@
+{
+  "name": "siga-portal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "formik": "^0.11.11",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.80.2",
+    "voca": "^1.4.0",
+    "yup": "^0.26.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.module-logo-container{
+  font-size: 130px;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-form{
+  background-image: url('./assets/images/fisi.JPG');
+  background-position: center;
+  background-size: 100% auto;
+}
+
+
+/* overriding semantic ui */
+.ui.teal.button,
+.ui.inverted.menu, 
+.ui.inverted.segment,
+.ui.teal.buttons .button
+.ui.primary.inverted.segment
+{
+  background-color: #4182c4  !important;
+}
+
+.ui.teal.header{
+  color: #4182c4 !important;
+}
+
+.ui.selection.active.dropdown,
+.ui.selection.active.dropdown .menu
+{
+  border-color: #4182c4 !important;
+}
