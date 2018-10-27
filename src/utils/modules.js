@@ -2,15 +2,21 @@ export default {
   7: {
     name: 'Legajo Docente',
     url: 'https://fisitcsld.herokuapp.com',
+    icon: "blackboard"
+  }, 
+
+  8: {
+    name: 'Administración de usuarios',
+    url: 'https://juniorve.github.io/proyectoIA/vista',
     icon: "user"
-  },
+  }, 
 
   1: {
     name: 'Carga de Recaudaciones',
     url: 'http://modulodecarga.herokuapp.com',
     icon: "piggy-bank"
   },
-
+ 
   5: {
     name: 'Disponibilidad Docente',
     url: 'http://disponibdocente.herokuapp.com',
