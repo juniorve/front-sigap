@@ -54,15 +54,7 @@ class AuthProvider extends React.Component {
     this.setState({isAuth: false, currentUser: {}});
     removeState('session');
   }, 300)
-
-/*   getUsers(token=null){
-		
-		let headers =  new Headers({'Content-Type':'application/json', 'Authorization':token});
-		let options = new RequestOptions({headers:headers});
-			
-		return this._http.get('http://localhost/back-estadisticas/LoginController/usuarios/LoginController', options)
-								.map(res => res.json());
-		} */
+ 
 	
   render() {
     const value = {
