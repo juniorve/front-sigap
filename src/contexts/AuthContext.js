@@ -13,10 +13,11 @@ class AuthProvider extends React.Component {
     ...loadState('session')
   }
   // fetch(`http://back-estadisticas.herokuapp.com/LoginController/modulos/LoginController`, {
-
+    //fetch(`http://localhost/back-estadisticas/LoginController/modulos/LoginController`, {
+  
    
   login = ({email, password, rol}) => 
-        fetch(`http://localhost/back-estadisticas/LoginController/modulos/LoginController`, {
+  fetch(`http://back-estadisticas.herokuapp.com/LoginController/modulos/LoginController`, {
     method: 'POST',
       body: JSON.stringify({
         tipo: rol,
@@ -54,14 +55,14 @@ class AuthProvider extends React.Component {
     removeState('session');
   }, 300)
 
-  getUsers(token=null){
+/*   getUsers(token=null){
 		
 		let headers =  new Headers({'Content-Type':'application/json', 'Authorization':token});
 		let options = new RequestOptions({headers:headers});
 			
 		return this._http.get('http://localhost/back-estadisticas/LoginController/usuarios/LoginController', options)
 								.map(res => res.json());
-		}
+		} */
 	
   render() {
     const value = {
