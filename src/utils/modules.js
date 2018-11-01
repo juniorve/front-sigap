@@ -7,7 +7,7 @@ export default {
 
   8: {
     name: 'Administración de usuarios',
-    url: 'https://juniorve.github.io/proyectoIA/vista',
+    url: 'https://juniorve.github.io/front-usuarios/',
     icon: "user"
   }, 
 
