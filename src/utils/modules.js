@@ -7,7 +7,7 @@ export default {
 
   8: {
     name: 'Administración de usuarios',
-    url: 'https://juniorve.github.io/front-usuarios/',
+    url: 'https://front-usuarios.herokuapp.com',
     icon: "user"
   }, 
 

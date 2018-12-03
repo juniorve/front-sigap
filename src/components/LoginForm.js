@@ -14,14 +14,6 @@ class LoginForm extends React.Component {
      {key: 'd', text:'Docente', value:'Docente'},
      {key: 'al', text:'Alumno', value:'Alumno'}]
   }
-/*   constructor(props) {
-    super(props);
-    this.state = {
-      roles: 'Please write an essay about your favorite DOM element.'
-    };
-
-  }
- */
 
   /* componentDidMount(){
    fetch('http://back-estadisticas.herokuapp.com/LoginController/modulos').then()
@@ -48,7 +40,6 @@ class LoginForm extends React.Component {
       touched,
       errors
     } = this.props;
-    // const { value } = this.state
     return (
       <div className='login-form'>
         <style>{`
